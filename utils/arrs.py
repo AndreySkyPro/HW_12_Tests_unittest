@@ -16,6 +16,7 @@ def get(array, index, default=None):
 
     return array[index + 1]
 
+
 def my_slice(coll, start=0, end=None):
     """
     Возвращает новый массив, содержащий копию части исходного массива.
